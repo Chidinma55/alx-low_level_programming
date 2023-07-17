@@ -4,8 +4,8 @@
 /**
  * main - Determine if a random number is positive, negative or zero.
  *
- * return: Always 0 (Success)
- */
+ * return: Always 0 Success	
+ */		
 int main(void)
 {
 	int n;
