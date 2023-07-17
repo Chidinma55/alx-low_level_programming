@@ -1,18 +1,22 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <stringe.h>
 /**
- * main - Prints the lowercase alphabet in reserve.
- * followed by a new line
+ * main - Prints the alphabet without q and e.
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
+	int i;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (i = '97; i < 123; i++)
 	{
-		putchar(ch);
-	}
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+	}	
 	putchar('\n');
 	return (0);
 }	
