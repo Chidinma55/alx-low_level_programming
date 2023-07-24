@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - progrsm thst generates random valid
+ * main - program thst generates random valid
  * passwords for the program 101-crackme
  * Return: Always 0 (Success)
  */
