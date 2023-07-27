@@ -27,7 +27,7 @@ void rev_string(char *n)
 }
 
 /**
- * infinite_add_add 2 numbers together
+ * infinite_add - add 2 numbers together
  * @n1: test representation of lst number to add
  * @n2: test representation of 2nd number to add
  * @r: pointer to buffer
